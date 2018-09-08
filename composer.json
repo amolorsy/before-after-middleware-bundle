@@ -1,0 +1,22 @@
+{
+    "name": "gyu-kang/before-after-middleware-bundle",
+    "description": "A symfony bundle for implementing a middleware run before or after a request",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gyu Kang",
+            "email": "gyu@gyukang.me"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "BeforeAfterMiddlewareBundle\\": "src/BeforeAfterMiddlewareBundle"
+        }
+    "require": {
+        "php": ">=5.6",
+        "symfony/symfony": "~2.7|~3.0|~4.0"
+    },
+    }
+}
