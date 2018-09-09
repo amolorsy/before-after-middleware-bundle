@@ -1,0 +1,6 @@
+services:
+  BeforeAfterMiddlewareBundle\Subscriber\BeforeAfterMiddlewareSubscriber:
+    class: BeforeAfterMiddlewareBundle\Subscriber\BeforeAfterMiddlewareSubscriber
+    autoconfigure: true
+    arguments:
+      - '@annotation_reader'
